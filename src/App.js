@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
 
 function App() {
+  // const [count, setCount] = useState(0);
+  const [value, setValue] = useState("");
+
+  // const counter = () => {
+  //   setCount(count + 1);
+  // };
+  const handleChange = (e) => {
+    e.preventDefault();
+    setValue(value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form onSubmit={handleChange} style={{ paddingTop: 72 }}>
+        <label>
+          Countdown:
+          <input
+            type="text"
+            placeholder="(Min)"
+            style={{ marginLeft: 12, height: 22 }}
+          />
+        </label>
+        <input
+          type="submit"
+          value="START"
+          style={{
+            backgroundColor: "green",
+            color: "white",
+            marginLeft: 12,
+            height: 27,
+          }}
+        />
+        {/* <button onClick={counter}>Count</button>
+      {count} */}
+      </form>
     </div>
   );
 }
