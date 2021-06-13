@@ -4,7 +4,7 @@ this project allows you to count down according to the time entered by the user
 
 ##  Installation
 
-git clone https://github.com/abouzeyd/compteur.git
+https://github.com/abouzeyd/CountDown.git
 
 ### Usage
 
