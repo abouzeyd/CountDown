@@ -16,11 +16,11 @@ Once downloaded, open the terminal in the project directory, and continue with:
 
 `yarn`
 
-## Compiles and minifies for production
+### Compiles and minifies for production
 
 `yarn start`
 
-## Runs the app in the development mode.\
+### Runs the app in the development mode.\
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
