@@ -26,4 +26,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 the application is deployed on netlify the link to access it is
 
-[https://countdowns.netlify.app]
+https://countdowns.netlify.app
