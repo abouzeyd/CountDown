@@ -10,7 +10,7 @@ You will need Node.js version Node.js v15.11.0 or greater installed on your syst
 
 Get the code by either cloning this repository using git
 
->git clone https://github.com/abouzeyd/CountDown.git
+`>git clone https://github.com/abouzeyd/CountDown.git`
 
  Usage
 
