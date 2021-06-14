@@ -12,19 +12,18 @@ Get the code by either cloning this repository using git
 
 `>git clone https://github.com/abouzeyd/CountDown.git`
 
- Usage
+Once downloaded, open the terminal in the project directory, and continue with:
 
-install the packages by running the command
+`yarn`
 
-yarn
+## Compiles and minifies for production
 
-launching the developer is done by typing 
+`yarn start`
 
-yarn start
+## Runs the app in the development mode.\
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 the application is deployed on netlify the link to access it is
 
-https://60c68fc4e4bb6d5c584776dd--vigorous-swirles-7092fd.netlify.app/
+[https://countdowns.netlify.app]
