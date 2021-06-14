@@ -14,7 +14,7 @@ Get the code by either cloning this repository using git
 
 Once downloaded, open the terminal in the project directory, and continue with:
 
-:yarn: yarn
+:yarn:: yarn
 
 ### Compiles and minifies for production
 
