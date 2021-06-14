@@ -1,12 +1,12 @@
- CountDown with ReactJS frontend example
+ # CountDown with ReactJS frontend example
 
 this project allows you to count down according to the time entered by the user
 
- Prerequisites
+ ## Prerequisites
 
 You will need Node.js version Node.js v15.11.0 or greater installed on your system.
 
- Setup
+ ## Setup
 
 Get the code by either cloning this repository using git
 
